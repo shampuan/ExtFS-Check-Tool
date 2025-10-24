@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ExtFS Check Tool
+Comment=Graphical tool for checking and repairing ext2/ext3/ext4 file systems
+Exec=/usr/share/fscheck/fscheck.py
+Icon=FSCheck
+Terminal=false
+Type=Application
+Categories=System;Utility;DiskManagement;
+Keywords=ext4;ext3;ext2;fsck;e2fsck;disk;repair;check;file system;
+StartupNotify=true
