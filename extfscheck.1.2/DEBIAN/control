@@ -1,0 +1,13 @@
+Package: extfs-check-tool
+Version: 1.2.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3, python3-gi, gir1.2-gtk-4.0, policykit-1, e2fsprogs, btrfs-progs, procps, bash, coreutils
+Maintainer: A.Serhat KILICOGLU <www.github.com/shampuan>
+Description: ExtFS Check Tool GUI
+ This program is a graphical user interface (GUI) for checking and repairing 
+ ext2/ext3/ext4 and BTR file systems on Linux.
+ It uses e2fsck with pkexec 
+ for elevated permissions when necessary.
+ Designed for easy management of external or unmounted ext partitions.

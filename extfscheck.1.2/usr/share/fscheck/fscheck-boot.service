@@ -1,0 +1,15 @@
+[Unit]
+Description=FSCheck Boot Repair Service
+DefaultDependencies=no
+Before=local-fs-pre.target
+Wants=local-fs-pre.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/fscheck-boot.sh
+StandardOutput=journal
+StandardError=journal
+RemainAfterExit=yes
+
+[Install]
+WantedBy=local-fs.target
